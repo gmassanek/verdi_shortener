@@ -1,5 +1,5 @@
 require "google_url_shortener"
-Google::UrlShortener::Base.api_key = "AIzaSyBBUz-GGksM66xJ0yiBAobxYyXH6cZ9CQs"
+Google::UrlShortener::Base.api_key = ENV['VERDI_GOOGLE_SHORTENER']
 
 # read from input file
 list_of_all_data = []

@@ -1,7 +1,7 @@
 require "bitly"
 
 Bitly.use_api_version_3
-bitly = Bitly.new("verdi327", "R_0d95b1830c5613637ac3f43ff70234e8")
+bitly = Bitly.new("verdi327", ENV['VERDI_BITLY_SHORTENER'])
 
 # read from input file
 list_of_all_data = []
